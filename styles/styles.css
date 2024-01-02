@@ -669,7 +669,7 @@
     line-height: 2rem;
   }
   .contact-content-con .left-contact .contact-info .contact-item {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: space-between;
   }
