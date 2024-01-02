@@ -1093,4 +1093,11 @@
     }
   }
   
+    .footer__copy {
+      display: flex; 
+      text-align: center;
+      margin-bottom: 2rem;
+
+
+  }
   /*# sourceMappingURL=styles.css.map */
