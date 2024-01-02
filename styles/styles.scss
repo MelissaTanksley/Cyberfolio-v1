@@ -519,7 +519,7 @@ section {
 
         .contact-info {
             .contact-item {
-                display: center;
+                display: flex;
                 align-items: center;
                 justify-content: space-between;
                 p {
@@ -667,5 +667,13 @@ section {
         }
     }
 }
+footer {
+    background-color: #977506;
+    position:fixed;
+    bottom: 0px;
+    width: 400px;
+    text-align: center;
+    }
+    
 
 @import './media';
