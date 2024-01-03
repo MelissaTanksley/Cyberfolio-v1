@@ -519,13 +519,14 @@ section {
 
         .contact-info {
             .contact-item {
-                display: inline;
+                display: flex;
                 align-items: center;
                 justify-content: space-between;
                 p {
-                    margin: .3rem 0 !important;
+                    /*margin: .3rem 0 !important;
+                    margin-left: center;
                     padding: 0 !important;
-                }
+                }*/
                 .icon {
                     display: grid;
                     grid-template-columns: 40px 1fr;
