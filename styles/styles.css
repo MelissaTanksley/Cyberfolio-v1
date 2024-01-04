@@ -749,8 +749,8 @@
   
   /*Independed components*/
   .btn-con {
-    display: flex;
-    align-self: flex-start;
+    display: center;
+    align-self: centert;
   }
   
   .main-btn {
