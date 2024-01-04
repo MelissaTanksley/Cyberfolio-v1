@@ -735,11 +735,6 @@
     /* Your existing styles for input control */
 }
 
-input,
-textarea {
-    /* Your existing styles for input and textarea */
-}
-
 /* Style for the contact image */
 .contact-image {
     position: absolute;
