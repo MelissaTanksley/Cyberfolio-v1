@@ -805,8 +805,8 @@
   .main-btn .btn-icon {
     background-color: var(--color-secondary);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     padding: 1rem;
