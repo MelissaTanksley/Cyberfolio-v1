@@ -747,7 +747,7 @@ textarea {
     right: 0;
     width: 100px; /* Adjust the width as needed */
     height: 100px; /* Adjust the height as needed */
-    background: url('/img/"cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
+    background: url('/img/cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
     border-radius: 50%; /* Make it a circle if desired */
 }
 
