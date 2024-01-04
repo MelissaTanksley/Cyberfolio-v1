@@ -749,8 +749,8 @@
   
   /*Independed components*/
   .btn-con {
-    display: center;
-    align-self: centert;
+    display: flex;
+    align-self: center;
   }
   
   .main-btn {
@@ -918,7 +918,7 @@
       flex-direction: column;
     }
     .contact-content-con .right-contact {
-      margin-left: 0;
+      margin-right: 10rem;;
       margin-top: 2.5rem;
     }
   
