@@ -45,6 +45,13 @@
     --color-grey-6: #12181b;
   }
 
+  .dark-mode .footer {
+    background-color: var(--color-primary2);
+    color: var(--color-white);
+    /* Add any other styles you need for the footer in dark mode */
+}
+
+
   * {
     font-family: "Lexend", "Popins", "Lato", sans-serif;
     margin: 0;
