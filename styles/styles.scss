@@ -674,10 +674,18 @@ footer {
     padding: 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
-
-
-    
-
-@import './media';
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a width of 600 pixels or less */
+    /* Adjust styles for smaller screens or mobile devices */
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Styles for screens with a width between 601 and 1200 pixels */
+    /* Adjust styles for medium-sized screens */
+  }
+  
+  @media screen and (min-width: 1201px) {
+    /* Styles for screens with a width of 1201 pixels or more */
+    /* Adjust styles for larger screens or desktops */
+  }
