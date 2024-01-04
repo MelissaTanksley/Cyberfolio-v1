@@ -750,7 +750,7 @@
 /* Style for the contact image */
 .contact-image {
   flex: 1;
-  background: url('your-image-path.jpg') center/cover; /* Replace with the actual path to your image */
+  background: url('/img/cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
   border-radius: 15px; /* Adjust border-radius as needed */
   margin-left: 1rem; /* Adjust margin as needed */
   height: 200px; /* Adjust height as needed */
