@@ -724,7 +724,7 @@
     font-size: 1.3rem;
   }
   
-  .right-contact {
+ /* .right-contact {
     flex: 3;
     margin-left: 3rem;
     position: relative; /* Ensure proper positioning of the image */
@@ -748,14 +748,6 @@
 }
 
 /* Style for the contact image */
-.contact-image {
-  flex: 1;
-  background: url('/img/cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
-  border-radius: 15px; /* Adjust border-radius as needed */
-  margin-left: 1rem; /* Adjust margin as needed */
-  height: 200px; /* Adjust height as needed */
-}
-
 
 
   .contact-content-con .right-contact {
