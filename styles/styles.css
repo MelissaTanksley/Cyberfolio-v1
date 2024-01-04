@@ -30,20 +30,8 @@
     --white: #fff;
   }
   
-  .light-mode {
-    --color-primary: #ffffff;
-    --color-secondary: #bf8065;
-    --color-white: #454e56;
-    --color-black: #000;
-    --color-grey0: #f8f8f8;
-    --color-grey-1: #6c7983;
-    --color-grey-2: #6c7983;
-    --color-grey-3: #6c7983;
-    --color-grey-4: #454e56;
-    /* --color-grey-5: #f8f8f8; */
-    --color-grey-5: #bab3b3;
-    --color-grey-6: #12181b;
-  }
+ C
+
   * {
     font-family: "Lexend", "Popins", "Lato", sans-serif;
     margin: 0;
@@ -1107,6 +1095,10 @@
     bottom: 0px;
     width: 400px;
     text-align: center;
+    }
+    dark-theme footer {
+      background-color: #FFF; /* Set your dark mode background color to white */
+      color: #333; /* Set your dark mode text color */
     }
     
   /*# sourceMappingURL=styles.css.map */
