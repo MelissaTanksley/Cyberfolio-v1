@@ -142,8 +142,6 @@ section {
     }
 }
 
-
-/*Header-content*/
 .header-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -537,6 +535,11 @@ section {
                     }
                 }
             }
+        }
+        .contact-image {
+            flex: 1;
+            background: url('cyber-lock.jpg') center/cover; 
+            /* Adjust the path and styling as needed */
         }
 
         .contact-icon {
