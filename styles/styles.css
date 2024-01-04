@@ -736,15 +736,27 @@
 }
 
 /* Style for the contact image */
-.contact-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    background: url('/img/cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
-    border-radius: 50%; /* Make it a circle if desired */
+
+.contact-content-con {
+  display: flex;
+  padding-top: 3.5rem;
 }
+
+.center-contact {
+  flex: 2;
+  /* Your existing styles for center-contact */
+}
+
+/* Style for the contact image */
+.contact-image {
+  flex: 1;
+  background: url('your-image-path.jpg') center/cover; /* Replace with the actual path to your image */
+  border-radius: 15px; /* Adjust border-radius as needed */
+  margin-left: 1rem; /* Adjust margin as needed */
+  height: 200px; /* Adjust height as needed */
+}
+
+
 
   .contact-content-con .right-contact {
     flex: 3;
