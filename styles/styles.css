@@ -967,10 +967,10 @@
         box-sizing: border-box; /* Include padding and border in the total width/height */
   }
 
-  .footer__copy {
-    margin: 0;
-  }
-</style>
+      .footer__copy {
+         margin: 0;
+      }
+    </style>
 
     
     .contact-content-con .right-contact {
@@ -1159,7 +1159,6 @@
     bottom: 0px;
     width: 400px;
     text-align: center;
-    
     }
    
     
