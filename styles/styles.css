@@ -46,7 +46,7 @@
   }
 
   .dark-mode .footer {
-    background-color: var(--color-primary2);
+    background-color: #12181b;
     color: var(--color-white);
     /* Add any other styles you need for the footer in dark mode */
 }
