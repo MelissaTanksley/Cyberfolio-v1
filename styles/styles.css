@@ -723,6 +723,34 @@
     justify-content: center;
     font-size: 1.3rem;
   }
+  
+  .right-contact {
+    flex: 3;
+    margin-left: 3rem;
+    position: relative; /* Ensure proper positioning of the image */
+}
+
+.input-control {
+    margin: 1.5rem 0;
+    /* Your existing styles for input control */
+}
+
+input,
+textarea {
+    /* Your existing styles for input and textarea */
+}
+
+/* Style for the contact image */
+.contact-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background: url('/img/"cyber-lock.jpg') center/cover; /* Replace with the actual path to your image */
+    border-radius: 50%; /* Make it a circle if desired */
+}
+
   .contact-content-con .right-contact {
     flex: 3;
     margin-left: 3rem;
