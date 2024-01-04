@@ -956,21 +956,28 @@
       justify-content: center; /* Center vertically */
     }
 
-    <style>
-      footer {
-        text-align: center;
-        padding: 20px;
-        background-color: #fff;
-        color: #000; /* Adjust text color to make it visible on the white background */
-        border: 2px solid #000; /* Black border */
-        border-radius: 25%; /* 25% border radius */
-        box-sizing: border-box; /* Include padding and border in the total width/height */
-  }
-
-      .footer__copy {
-         margin: 0;
-      }
-    </style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    
+    main {
+      flex: 1;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      color: #000;
+      border: 2px solid #000;
+      border-radius: 25%;
+      box-sizing: border-box;
+      margin-top: auto; /* Push the footer to the bottom of the container */
+    }
+    
 
     
     .contact-content-con .right-contact {
