@@ -678,8 +678,8 @@
     padding: 0 !important;
   }
   *contact-content-con .left-contact .contact-info .contact-item .icon {
-    display: grid;
-    grid-template-columns: 40px 1fr;
+    display: center;
+    /*grid-template-columns: 40px 1fr;*/
   } 
   .contact-content-con .left-contact .contact-info .contact-item .icon i {
     display: flex;
