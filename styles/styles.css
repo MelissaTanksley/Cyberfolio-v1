@@ -975,10 +975,18 @@
       border: 2px solid #000;
       border-radius: 25%;
       box-sizing: border-box;
-      margin-top: auto; /* Push the footer to the bottom of the container */
+      margin-top: auto;
     }
     
-
+    .footer__copy {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%; /* Ensure it takes the full height of the footer */
+    }
+    
     
     .contact-content-con .right-contact {
       margin-right: 0;
