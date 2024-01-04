@@ -677,8 +677,8 @@
     margin: 0.3rem 0 !important;
     padding: 0 !important;
   }
-  *contact-content-con .left-contact .contact-info .contact-item .icon {
-    display: center;
+  .contact-content-con .left-contact .contact-info .contact-item .icon {
+    display: flex;
     /*grid-template-columns: 40px 1fr;*/
   } 
   .contact-content-con .left-contact .contact-info .contact-item .icon i {
