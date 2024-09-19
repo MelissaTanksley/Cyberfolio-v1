@@ -11,3 +11,10 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
